@@ -2,9 +2,22 @@
     <body style="min-width: 650px;">
         <main>
             <div class="text-center lucida bg-color-aqua px-12px py-8px mb-8px">
-                <h1>Chan Yu-Xiang</h1>
+                <div class="flex">
+                    <div class="flex-1 font-size-l name">
+                        <h1>Chan Yu-Xiang</h1>
+                    </div>
+                    <div class="flex-2 font-size-s">
+                        <p class="text-left"><img src="nationality.png" class="icon" /> Nationality: Malaysian</p>
+                        <p class="text-left"><img src="github.webp" class="icon" /> Github/Portfolio: github.com/littlecorsican , github.com/yxChanSnsoft</p>
+                        <p class="text-left"><img src="website.webp" class="icon" /> Personal site: github.com/yxChanSnsoft</p>
+                        <p class="text-left"><img src="language.webp" class="icon" /> Language: English, Malay, Mandarin</p>
+                        <p class="text-left"><img src="email.webp" class="icon" /> Email: gnomemage1990@gmail.com</p>
+                        <p class="text-left"><img src="linkedin.png" class="icon" /> LinkedIn: https://www.linkedin.com/in/yuxiang-c-054aba92/</p>
+                    </div>
+                </div>
+                
             </div>
-            <div class="flex flex-column">
+            <!-- <div class="flex flex-column">
                 <div class="flex flex-row w-full text-center">
                     <div class="flex-1">
                         <img src="nationality.png" class="icon" /> Nationality: Malaysian
@@ -27,7 +40,7 @@
                         <img src="linkedin.png" class="icon" /> LinkedIn: https://www.linkedin.com/in/yuxiang-c-054aba92/
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="px-15 py-5">
                 <h2>Profile Summary</h2>
                 <p>
@@ -166,7 +179,7 @@
                 <p>Country: United Kingdom	</p>
                 <p>Duration of Course: September 2012 to June 2014</p>
 
-
+                <br>
                 <p>Name of Qualification: Diploma of Science (Biology and Chemistry)</p>
                 <p>Name of Institution: Tunku Abdul Rahman College</p>
                 <p>Country: Malaysia</p>
@@ -199,8 +212,22 @@
             
         </main>
         <style>
+            .name {
+                display: flex;
+                align-items: center;
+                padding-left: 2%;
+            }
             .text-center {
                 text-align: center;
+            }
+            .text-left {
+                text-align: left;
+            }
+            .font-size-s {
+                font-size: small;
+            }
+            .font-size-l {
+                font-size: large;
             }
             .lucida {
                 font-family: "Lucida Console", "Courier New", monospace;
@@ -210,6 +237,15 @@
             }
             .flex-1 {
                 flex: 1
+            }
+            .flex-2 {
+                flex: 2
+            }
+            .flex-3 {
+                flex: 3
+            }
+            .flex-4 {
+                flex: 4
             }
             .flex-row {
                 flex-direction: row;
@@ -254,8 +290,8 @@
                 background-color: aqua;
             }
             .icon {
-                width : 39px;
-                height: 39px;
+                width : 29px;
+                height: 29px;
                 vertical-align: middle
             }
             .verticle-middle {
