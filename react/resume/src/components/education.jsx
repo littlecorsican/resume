@@ -11,7 +11,7 @@ function Education({
 
   
   return (
-    <div className="py-2 px-10">
+    <div className="py-2 px-10 text-3xl">
         <div className="flex flex-row justify-between">
             <div className="flex-1 flex justify-start px-4">
                 <b>{institute}</b>

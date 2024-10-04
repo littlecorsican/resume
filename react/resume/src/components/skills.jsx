@@ -6,9 +6,9 @@ function Skills() {
 
   
   return (
-    <div className="py-4 px-10">
-        <p>Javascript, PHP, Python, C, Nodejs, Next js, React js, OpenShift, Linux, AWS, Typescript, Tailwind, HTML5, CSS3, Java, Flask,
-        FastAPI, MSSQL, MySQL, postgresSQL, Datadog</p>
+    <div className="py-4 px-10 text-3xl">
+        <p>Javascript, PHP, Python, C, Nodejs, Nextjs, React, OpenShift, Linux, AWS, Typescript, Tailwind, HTML5, CSS3, Flask,
+        FastAPI, MSSQL, MySQL, PostgresSQL, Datadog, Jaeger, Ansible, Prometheus, Grafana</p>
     </div>
   );
 }

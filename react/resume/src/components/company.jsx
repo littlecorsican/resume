@@ -12,8 +12,8 @@ function Company({
 
   
   return (
-    <div className="py-2 px-10">
-        <div className="flex flex-row justify-between">
+    <div className="py-2 px-10 text-3xl">
+        <div className="flex flex-row justify-between py-2">
             <div className="flex-1 flex justify-start px-4">
                 <b>{name}</b>
             </div>
@@ -29,10 +29,10 @@ function Company({
                 {location}
             </div>
         </div>
-        <ul className="px-10 list-disc">
+        <ul className="px-10 list-disc py-4">
             {
-                responsibilities.map((value)=>{
-                    return <li className="">
+                responsibilities.map((value, index)=>{
+                    return <li className="" key={index}>
                         {value}
                     </li>
                 })
